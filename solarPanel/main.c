@@ -47,8 +47,8 @@ void SYSTEM_Initialize();
     {
         uint16_t position1 = ADC_GetConversion(5);
         uint16_t position2 = ADC_GetConversion(6);
-        uint16_t mappedValue1 = map(position1,0,1023,99,49);
-        uint16_t mappedValue2 = map(position2,0,1023,99,49);
+        uint16_t mappedValue1 = map(position1,0,1023,49,99);
+        uint16_t mappedValue2 = map(position2,0,1023,49,99);
        
    
  if(mappedValue1  > (mappedValue2))
@@ -83,3 +83,5 @@ void SYSTEM_Initialize();
 uint16_t map(int value, int inputMin, int inMax, int outMin, int outMax){
     return (value - inputMin) * (outMax - outMin) / (inMax - inputMin) + outMin;
 }
+
+//part of the code was provided by Slick_Pic_Rick from microchip
