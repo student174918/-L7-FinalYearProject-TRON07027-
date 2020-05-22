@@ -279,3 +279,10 @@ void ADC_Init (void)
     
     ADCON2 = 0x92;  // A/D CLK=FOSC/32, 4TAD, RIGHT justified
 }
+
+//part of the code was provided by Controllers Tech(adc setup) and Gupta Sourav from Circuit Digest (stepper motor programming)
+//links:
+/*
+https://controllerstech.com/pic18-adc-single-and-multiple-channels/
+https://circuitdigest.com/microcontroller-projects/interfacing-stepper-motor-with-pic16f877a
+*/
