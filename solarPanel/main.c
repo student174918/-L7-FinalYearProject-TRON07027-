@@ -85,3 +85,4 @@ uint16_t map(int value, int inputMin, int inMax, int outMin, int outMax){
 }
 
 //part of the code was provided by Slick_Pic_Rick from microchip
+//link: https://mplabxpress.microchip.com/mplabcloud/Example/Details/763
