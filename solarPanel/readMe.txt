@@ -1,2 +1,3 @@
-MCC: IMLAB-X code configurator. it was used to set up th PIC 
-the main code is in Main.c 
+MCC: IMLAB-X code configurator. it was used to set up the PICs registers  
+
+The main code is in Main.c 
